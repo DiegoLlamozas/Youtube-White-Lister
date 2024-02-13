@@ -8,10 +8,6 @@ const youtube = google.youtube({
     auth: apiKey,
 })
 
-const getSnippet = (response) => {
-
-}
-
 const getChannelByName = async(searchQuery) => {
     const type = 'channel';
 
