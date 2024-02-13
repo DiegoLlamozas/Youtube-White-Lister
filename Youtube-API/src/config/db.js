@@ -1,6 +1,6 @@
 const {Sequelize} = require('sequelize');
 
-const sequelize = new Sequelize('youtube-white-list', 'root', 'N0 z34zh-l0ly5h4D', {
+const sequelize = new Sequelize('youtube-white-list', 'root', 'root', {
     host: '127.0.0.1',
     dialect: 'mysql',
     // avoid created_at and updated_at
