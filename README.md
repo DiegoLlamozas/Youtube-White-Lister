@@ -68,6 +68,6 @@ To fetch data from the YouTube API, you'll need an API key:
 4. Click on "Create credentials" and select "API key".
 5. Copy the generated API key.
 6. Ensure that the YouTube Data API v3 is enabled for your project by going to "Library" in the left sidebar, searching for "YouTube Data API v3", and enabling it if it's not already enabled.
-7. In your project code, use this API key for making requests to the YouTube API.
+7. In your project code, use this API key for making requests to the YouTube API replacing "YOUR_API_KEY" on "GitHub\Youtube-White-Lister\Youtube-API\src\api-support\youtubeAPI.js" with your new key.
 
 That's it! You've successfully set up and run the GitHub project on your machine, along with obtaining a key for the YouTube API.
