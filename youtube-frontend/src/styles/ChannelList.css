@@ -1,0 +1,48 @@
+.channel-list {
+  max-width: 100%;
+  width: 100%; /* Adjust according to your design */
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 100px; /* Example font size */
+  color: #333; /* Example text color */
+  text-align: center; /* Center the title */
+}
+
+.channel-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Distribute items evenly across rows */
+}
+
+.channel-list li {
+  flex: 0 0 calc(30% - 16px); /* Adjust item width based on the number of items per row */
+  /* 30% width for 3 items per row. Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Adjust button styles */
+.channel-list button {
+  width: auto; /* Reset width */
+  margin-top: 8px; /* Adjust margin */
+}
+
+.channel-list button + button {
+  margin-left: 8px; /* Add left margin between buttons */
+}
+
+.channel-list button:hover {
+  background-color: #c82333;
+}

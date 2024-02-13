@@ -1,0 +1,25 @@
+.banner {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; /* Remove default list styles */
+  }
+  
+  .banner-item {
+    margin: 0;
+  }
+  
+  .banner-link {
+    color: #333; /* Adjust link color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .banner-link:hover {
+    background-color: #f0f0f0; /* Hover background color */
+  }
+  

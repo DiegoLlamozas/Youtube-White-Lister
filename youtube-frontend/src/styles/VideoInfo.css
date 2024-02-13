@@ -1,0 +1,31 @@
+.video-info{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video-info img{
+    width: 25%;
+    max-width: 200px; /* Adjust according to your design */
+    border-radius: 5px;
+}
+
+.video-info h3{
+    max-width: 250px;
+}
+
+.video-info p{
+    max-width: 500px;
+}
+
+.video-info h3,
+.video-info p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}

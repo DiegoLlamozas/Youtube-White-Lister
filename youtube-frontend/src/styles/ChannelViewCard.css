@@ -1,0 +1,19 @@
+.channel-view-card {
+  display: flex;
+  align-items: center; 
+  border: none;
+  max-width: 500px;
+  max-height: 500px;
+  white-space: nowrap; 
+  margin-bottom: 16px;
+  flex-direction: row;
+}
+
+.channel-info {
+  margin-bottom: 16px;
+}
+
+.channel-info img {
+  max-width: 100%;
+}
+

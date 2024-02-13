@@ -1,0 +1,33 @@
+.video-card {
+  display: flex;
+  align-items: center; 
+  border: none;
+  max-width: 500px;
+  max-height: 500px;
+  white-space: nowrap; 
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.video-info {
+  margin-bottom: 16px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}

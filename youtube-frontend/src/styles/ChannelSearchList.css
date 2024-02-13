@@ -1,0 +1,9 @@
+.channel-search-list {
+  list-style: none;
+  padding: 0;
+}
+
+.channel-search-list li {
+  margin-bottom: 16px;
+  border: none; /* Remove the border */
+}

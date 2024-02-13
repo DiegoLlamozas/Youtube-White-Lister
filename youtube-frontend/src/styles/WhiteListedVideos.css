@@ -1,0 +1,26 @@
+.white-listed-videos {
+  max-width: 100%;
+  width: 100%; /* Adjust according to your design */
+  margin: 0 auto;
+}
+
+.white-listed-videos h2 {
+  margin-bottom: 20px;
+  font-size: 100px; /* Example font size */
+  color: #333; /* Example text color */
+  text-align: center; /* Center the title */
+}
+
+.white-listed-videos button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.white-listed-videos button:hover {
+  background-color: #0056b3;
+}

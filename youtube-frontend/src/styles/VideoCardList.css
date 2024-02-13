@@ -1,0 +1,16 @@
+.video-card-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Distribute items evenly across rows */
+  margin: 10px -5px; /* Distribute items evenly across rows and provide space between items */
+}
+
+.video-card-item {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust item width based on the number of items per row */
+  /* 33.33% width for 3 items per row. Adjust as needed */
+  margin-bottom: 16px;
+  margin-right: 10px; /* Provide space between items */
+  margin-left: 5px; /* Provide space between items */
+}

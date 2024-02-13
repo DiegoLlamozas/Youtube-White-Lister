@@ -1,0 +1,27 @@
+.channel-search-card {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  align-items: center; /* Center items horizontally */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.channel-info {
+  margin-bottom: 16px;
+}
+
+.channel-search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.channel-search-button:hover {
+  background-color: #0056b3;
+}

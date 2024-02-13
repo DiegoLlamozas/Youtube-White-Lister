@@ -1,0 +1,35 @@
+.channel-listed-card {
+  display: flex;
+  align-items: center; 
+  border: none;
+  max-width: 500px;
+  max-height: 500px;
+  white-space: nowrap; 
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.channel-info {
+  margin-bottom: 16px;
+}
+
+.channel-action-buttons {
+  display: flex; /* Make the buttons flex items */
+  flex-wrap: wrap; /* Allow wrapping of buttons */
+  justify-content: center; /* Center items horizontally */
+}
+
+.channel-action-buttons button {
+  margin: 8px; /* Add margin around buttons */
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.channel-action-buttons button:hover {
+  background-color: #c82333;
+}
